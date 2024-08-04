@@ -1,0 +1,61 @@
+/* src/pages/Exhibitions/Exhibitions.css */
+
+.container {
+  padding: 20px;
+}
+
+.concert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid with minimum width of 250px and maximum 1fr (equal distribution) */
+  gap: 20px; /* Gap between grid items */
+}
+
+.concert-card {
+  border: 1px solid #ddd; /* Border around each card */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Ensure content within the card does not overflow */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle depth effect */
+}
+
+.concert-card img {
+  width: 100%; /* Ensure images fill their container */
+  height: 150px; /* Maintain aspect ratio */
+}
+
+.concert-details {
+  padding: 15px; /* Padding around the details */
+}
+
+.concert-details h3 {
+  margin: 10px 0; /* Margin for the heading */
+}
+
+.concert-details p {
+}
+
+.concert-details a {
+  text-decoration: underline;
+  color: blue;
+}
+.concert-details h4 {
+  margin: 10px 0; /* Margin for subheadings */
+  color: #888; /* Subheading text color */
+}
+
+.concert-details span {
+  display: block; /* Display as block to ensure proper spacing */
+  margin-top: 10px; /* Margin above each span */
+  color: #aaa; /* Color for additional information */
+}
+
+
+.concert-card button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-left: auto;
+  color: red;
+  width: 100%;
+  text-align: end;
+  padding: 10px;
+}

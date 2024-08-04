@@ -1,0 +1,29 @@
+.add-events-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 40px 40px;
+    width: max-content;
+    width: 500px;
+    margin: auto;
+    flex-direction: column;
+    box-sizing: border-box !important;
+}
+.add-events-container input, .add-events-container select {
+    width: 350px;
+    padding: 15px;
+    font-size: 18px;
+    box-sizing: border-box !important;
+}
+
+.add-events-container button {
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 0px;
+    margin-top: 10px;
+    width: 150px;
+}
